@@ -1,0 +1,16 @@
+<h1>New PV_Data</h1>
+<%= form_for :pv_datum, url: pv_data_path do |f| %>
+<p>
+  <%= f.label :title %><br>
+  <%= f.text_field :title %>
+</p>
+
+<p>
+  <%= f.label :text %><br>
+  <%= f.text_area :text %>
+</p>
+
+<p>
+  <%= f.submit %>
+</p>
+<% end %>

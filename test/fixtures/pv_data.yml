@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dc_voltage: 1.5
+  ac_voltage: 1.5
+  ac_power: 1.5
+  status: 1
+  temperature: 1.5
+  total_kwh: 1.5
+  incident_angle: 1.5
+  env_datum_id: 
+  inverter_id: 
+
+two:
+  dc_voltage: 1.5
+  ac_voltage: 1.5
+  ac_power: 1.5
+  status: 1
+  temperature: 1.5
+  total_kwh: 1.5
+  incident_angle: 1.5
+  env_datum_id: 
+  inverter_id: 

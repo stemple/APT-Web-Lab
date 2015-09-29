@@ -1,0 +1,13 @@
+<h1>Listing Environmental Data</h1>
+
+<table>
+  <tr>
+    <th>Temperature</th>
+  </tr>
+
+  <% @env_data.each do |env_datum| %>
+      <tr>
+        <td><%= env_datum.temperature %></td>
+      </tr>
+  <% end %>
+</table>

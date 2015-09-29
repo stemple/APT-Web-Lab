@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+
+  resources :env_data do
+    resources :pv_data
+  end
+
+  resources :pv_data
+
+  resources :inverters do
+    resources :pv_data
+  end
+
   root 'welcome#index'
   #cget 'welcome/index'
 

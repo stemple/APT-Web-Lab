@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wind_speed: 1.5
+  wind_direction: 1
+  temperature: 1.5
+  insol_level: 1.5
+  humidity: 1.5
+
+two:
+  wind_speed: 1.5
+  wind_direction: 1
+  temperature: 1.5
+  insol_level: 1.5
+  humidity: 1.5

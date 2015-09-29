@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  longitude: 1.5
+  latitude: 1.5
+  serial_num: MyString
+  ip_address: MyString
+  elevation: 1.5
+  azimuth: 1.5
+  zenith: 1.5
+  time_zone: 1.5
+
+two:
+  longitude: 1.5
+  latitude: 1.5
+  serial_num: MyString
+  ip_address: MyString
+  elevation: 1.5
+  azimuth: 1.5
+  zenith: 1.5
+  time_zone: 1.5
