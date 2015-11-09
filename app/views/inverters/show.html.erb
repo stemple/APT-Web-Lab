@@ -38,4 +38,11 @@
   <%= @inverter.time_zone %>
 </p>
 
+<h2>PV Data</h2>
+<%= render @inverter.pv_data %>
+
+<h2>Add a PV Datum:</h2>
+<%= render 'pv_data/form' %>
+
+<%= link_to 'Edit', edit_inverter_path(@inverter) %> |
 <%= link_to 'Back', inverters_path %>

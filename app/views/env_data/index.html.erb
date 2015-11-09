@@ -2,12 +2,22 @@
 
 <table>
   <tr>
+    <th>Date</th>
     <th>Temperature</th>
+    <th colspan="3"></th>
   </tr>
 
   <% @env_data.each do |env_datum| %>
       <tr>
+        <td><%= env_datum.created_at %></td>
         <td><%= env_datum.temperature %></td>
+        <td><%= link_to 'Show', env_datum_path(env_datum) %></td>
+        <td><%= link_to 'Edit', edit_env_datum_path(env_datum) %></td>
+        <td><%= link_to 'Destroy', env_datum_path(env_datum),
+                        method: :delete,
+                        data: { confirm: 'Are you sure?' } %></td>
       </tr>
   <% end %>
 </table>
+
+<%= link_to 'New Environmental Datum', new_env_datum_path %>

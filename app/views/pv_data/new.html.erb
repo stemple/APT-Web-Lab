@@ -1,16 +1,52 @@
 <h1>New PV_Data</h1>
-<%= form_for :pv_datum, url: pv_data_path do |f| %>
-<p>
-  <%= f.label :title %><br>
-  <%= f.text_field :title %>
-</p>
+<%= form_for @pv_datum do |f| %>
 
-<p>
-  <%= f.label :text %><br>
-  <%= f.text_area :text %>
-</p>
-
-<p>
-  <%= f.submit %>
-</p>
+    <% if @pv_datum.errors.any? %>
+        <div id="error_explanation">
+          <h2>
+            <%= pluralize(@pv_datum.errors.count, "error") %> prohibited
+            this PV Datum from being saved:
+          </h2>
+          <ul>
+            <% @pv_datum.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <p>
+      <%= f.label :inverter_id %><br>
+      <%= f.text_field :inverter_id %>
+    </p>
+    <p>
+      <%= f.label :ac_power %><br>
+      <%= f.text_field :ac_power %>
+    </p>
+    <p>
+      <%= f.label :ac_voltage %><br>
+      <%= f.text_field :ac_voltage %>
+    </p>
+    <p>
+      <%= f.label :dc_voltage %><br>
+      <%= f.text_field :dc_voltage %>
+    </p>
+    <p>
+      <%= f.label :temperature %><br>
+      <%= f.text_field :temperature %>
+    </p>
+    <p>
+      <%= f.label :total_kwh %><br>
+      <%= f.text_field :total_kwh %>
+    </p>
+    <p>
+      <%= f.label :incident_angle %><br>
+      <%= f.text_field :incident_angle %>
+    </p>
+    <p>
+      <%= f.label :status %><br>
+      <%= f.text_field :status %>
+    </p>
+    <p>
+      <%= f.submit %>
+    </p>
 <% end %>

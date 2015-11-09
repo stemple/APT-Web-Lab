@@ -36,6 +36,13 @@ class InvertersController < ApplicationController
     end
   end
 
+  def destroy
+    @inverter = Inverter.find(params[:id])
+    @inverter.destroy
+
+    redirect_to inverters_path
+  end
+
   private
   def inverter_params
     params.require(:inverter).permit(:longitude, :latitude, :serial_num, :ip_address, :elevation, :azimuth,

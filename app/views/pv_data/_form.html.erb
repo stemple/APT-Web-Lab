@@ -1,0 +1,33 @@
+<%= form_for([@inverter, @inverter.pv_data.build]) do |f| %>
+<p>
+  <%= f.label :ac_power %><br>
+  <%= f.text_field :ac_power %>
+</p>
+<p>
+  <%= f.label :ac_voltage %><br>
+  <%= f.text_field :ac_voltage %>
+</p>
+<p>
+  <%= f.label :dc_voltage %><br>
+  <%= f.text_field :dc_voltage %>
+</p>
+<p>
+  <%= f.label :temperature %><br>
+  <%= f.text_field :temperature %>
+</p>
+<p>
+  <%= f.label :total_kwh %><br>
+  <%= f.text_field :total_kwh %>
+</p>
+<p>
+  <%= f.label :incident_angle %><br>
+  <%= f.text_field :incident_angle %>
+</p>
+<p>
+  <%= f.label :status %><br>
+  <%= f.text_field :status %>
+</p>
+<p>
+  <%= f.submit %>
+</p>
+<% end %>

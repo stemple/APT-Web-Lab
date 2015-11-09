@@ -3,7 +3,7 @@
 <table>
   <tr>
     <th>IP Address</th>
-    <th colspan="2"></th>
+    <th colspan="3"></th>
   </tr>
 
   <% @inverters.each do |inverter| %>
@@ -11,17 +11,11 @@
         <td><%= inverter.ip_address %></td>
         <td><%= link_to 'Show', inverter_path(inverter) %></td>
         <td><%= link_to 'Edit', edit_inverter_path(inverter) %></td>
+        <td><%= link_to 'Destroy', inverter_path(inverter),
+                       method: :delete,
+                       data: { confirm: 'Are you sure?' } %></td>
       </tr>
   <% end %>
 </table>
 
 <%= link_to 'New Inverter', new_inverter_path %>
-
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Text</th>
-    <th colspan="2"></th>
-  </tr>
-
-</table>

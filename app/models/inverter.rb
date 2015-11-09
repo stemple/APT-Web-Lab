@@ -1,4 +1,6 @@
 class Inverter < ActiveRecord::Base
+  has_many :pv_data
+  
   validates :ip_address, presence: true
   validates :longitude, presence: true
   validates :latitude, presence: true

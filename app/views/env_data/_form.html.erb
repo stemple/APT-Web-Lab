@@ -1,0 +1,44 @@
+<%= form_for @env_datum do |f| %>
+
+    <% if @env_datum.errors.any? %>
+        <div id="error_explanation">
+          <h2>
+            <%= pluralize(@env_datum.errors.count, "error") %> prohibited
+            this Env Datum from being saved:
+          </h2>
+          <ul>
+            <% @env_datum.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+    <p>
+      <%= f.label :temperature %><br>
+      <%= f.text_field :temperature %>
+    </p>
+
+    <p>
+      <%= f.label :humidity %><br>
+      <%= f.text_field :humidity %>
+    </p>
+
+    <p>
+      <%= f.label :wind_speed %><br>
+      <%= f.text_field :wind_speed %>
+    </p>
+
+    <p>
+      <%= f.label :wind_direction %><br>
+      <%= f.text_field :wind_direction %>
+    </p>
+
+    <p>
+      <%= f.label :insol_level %><br>
+      <%= f.text_field :insol_level %>
+    </p>s
+
+    <p>
+      <%= f.submit %>
+    </p>
+<% end %>
