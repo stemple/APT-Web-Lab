@@ -11,7 +11,7 @@
     </data-source>
     <data-source name="Rails aptweblab: production" uuid="92f93b11-894d-4048-88f9-e9033fae9aaf">
       <first-sync>true</first-sync>
-      <user-name>stemple@srcs.org</user-name>
+      <user-name>aptweblab</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdffadffedffddfefdfe8dfe6dfebdfe8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>
   </component>

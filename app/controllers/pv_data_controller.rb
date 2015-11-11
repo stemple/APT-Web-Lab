@@ -1,4 +1,6 @@
 class PvDataController < ApplicationController
+  protect_from_forgery :except => [:create]
+
   def index
     @pv_data = PvDatum.all
   end
@@ -12,11 +14,6 @@ class PvDataController < ApplicationController
   end
 
   def create
-    #TODO: Must fix this!
-    #@temp = params[:pv_datum]
-    #puts "++++++++"
-    #puts pv_datum_params
-    #puts "++++++++"
     @inverter = Inverter.find_by(id: pv_datum_params[:inverter_id])
     @pv_datum = @inverter.pv_data.create(pv_datum_params)
     redirect_to pv_datum_path(@pv_datum)
