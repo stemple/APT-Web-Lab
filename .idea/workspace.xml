@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/upload_srhs_data_test.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/upload_srhs_pv_data.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/upload_srhs_data.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pv_data_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pv_data_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/upload_pv_data_test.rb" afterPath="$PROJECT_DIR$/lib/tasks/upload_pv_data_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="" />
     <ignored path="aptweblab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -74,7 +65,7 @@
       <file leaf-file-name="upload_srhs_data_test.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/upload_srhs_data_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3558394">
+            <state vertical-scroll-proportion="-0.06751825">
               <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding />
             </state>
@@ -1098,7 +1089,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/upload_srhs_data_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3558394">
+        <state vertical-scroll-proportion="-0.06751825">
           <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding />
         </state>
