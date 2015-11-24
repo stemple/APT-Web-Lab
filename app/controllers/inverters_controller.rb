@@ -1,5 +1,7 @@
 class InvertersController < ApplicationController
 
+  http_basic_authenticate_with name: 'apt_admin', password: 'secret', except: [:index, :show]
+
   def index
     @inverters = Inverter.all
   end

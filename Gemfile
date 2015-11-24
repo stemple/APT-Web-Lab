@@ -43,5 +43,10 @@ group :development, :test do
   gem 'spring'
 end
 
+
+# Use for plot.ly graphs
+# gem 'plotly'
+gem 'chartkick'
+gem 'groupdate'
 ruby "2.1.3"
 

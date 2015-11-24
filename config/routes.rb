@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'graphs/index'
+
   resources :pv_data
   resources :env_data
 

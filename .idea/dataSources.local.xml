@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails aptweblab: development" uuid="42e8cfa4-42e3-450c-8468-77e36ea95aed">
-      <schema-pattern>aptweblab_development.*</schema-pattern>
-      <default-schemas>aptweblab_development.*</default-schemas>
-    </data-source>
-    <data-source name="Rails aptweblab: test" uuid="35f3d807-2eb5-4d3e-887f-d256e187d27d">
-      <schema-pattern>aptweblab_test.*</schema-pattern>
-      <default-schemas>aptweblab_test.*</default-schemas>
-    </data-source>
+    <data-source name="Rails aptweblab: development" uuid="42e8cfa4-42e3-450c-8468-77e36ea95aed" />
+    <data-source name="Rails aptweblab: test" uuid="35f3d807-2eb5-4d3e-887f-d256e187d27d" />
     <data-source name="Rails aptweblab: production" uuid="92f93b11-894d-4048-88f9-e9033fae9aaf">
-      <first-sync>true</first-sync>
       <user-name>aptweblab</user-name>
       <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfebdffadffedffddfefdfe8dfe6dfebdfe8dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
     </data-source>

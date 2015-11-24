@@ -4,6 +4,7 @@
   <tr>
     <th>AC Power</th>
     <th>Total kWh</th>
+    <th>Date</th>
     <th colspan="3"></th>
   </tr>
 
@@ -11,6 +12,7 @@
       <tr>
         <td><%= pv_datum.ac_power %></td>
         <td><%= pv_datum.total_kwh %></td>
+        <td><%= pv_datum.created_at %></td>
         <td><%= link_to 'Show', pv_datum_path(pv_datum) %></td>
         <td><%= link_to 'Edit', edit_pv_datum_path(pv_datum) %></td>
         <td><%= link_to 'Destroy', pv_datum_path(pv_datum),
@@ -20,4 +22,4 @@
   <% end %>
 </table>
 
-<%= link_to 'New Environmental Datum', new_pv_datum_path %>
+<p><%= link_to 'New PV Datum', new_pv_datum_path %></p>

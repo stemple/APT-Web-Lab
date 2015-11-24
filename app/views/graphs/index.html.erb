@@ -1,0 +1,9 @@
+<%= javascript_include_tag "//www.google.com/jsapi", "chartkick" %>
+<h1>PV Power Generation</h1>
+<%= column_chart @graph_data, library: {title: 'kWh By Day', width: 800, height: 200} %>
+<p>For debugging:</p>
+<%= @graph_data %>
+
+
+
+
