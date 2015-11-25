@@ -16,7 +16,12 @@ class GraphsController < ApplicationController
 
   end
 
-  def show
+  def show_ac_for_day
+    start_date = Time.new.beginning_of_day
+    end_date = Time.new
+    ac_data = PvDatum.where('created_at >= ? and created_at <= ?', start_date, end_date)
+
+
 
 
   end

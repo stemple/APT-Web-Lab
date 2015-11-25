@@ -48,5 +48,6 @@ end
 # gem 'plotly'
 gem 'chartkick'
 gem 'groupdate'
+gem 'highcharts-rails', '~> 3.0.0'
 ruby "2.1.3"
 
