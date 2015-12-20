@@ -3,8 +3,7 @@
 <!--<p><%= @kwh_graph_data %></p>-->
 <%= line_chart @pv_ac_graph_data, library: {title: { text: 'Today\'s AC Power', x: -20},
                                         subtitle: { text: 'APT Solar Array', x: -20},
-                                        yAxis: { title: { text: 'AC Power (W)'}},
-                                            global: { useUTC: false }
+                                        yAxis: { title: { text: 'AC Power (W)'}}
                             }
 %>
 <%= column_chart @kwh_graph_data, library:

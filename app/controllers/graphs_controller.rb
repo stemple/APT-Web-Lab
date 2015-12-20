@@ -18,7 +18,7 @@ class GraphsController < ApplicationController
     times = Array.new
     data.each do |datum|
       ac_data.push(datum.ac_power)
-      times.push(datum.created_at.in_time_zone)
+      times.push(datum.created_at.strftime("%I%M%p"))
     end
 
     # combine the arrays
