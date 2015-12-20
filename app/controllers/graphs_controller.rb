@@ -11,8 +11,8 @@ class GraphsController < ApplicationController
   private
 
   def get_pv_ac_data
-    start_date = Time.new.beginning_of_day.in_time_zone
-    end_date = Time.new.in_time_zone
+    start_date = Time.zone.now.beginning_of_day
+    end_date = Time.zone.now
     data = PvDatum.where('created_at >= ? and created_at <= ?', start_date, end_date)
     ac_data = Array.new
     times = Array.new
@@ -26,8 +26,8 @@ class GraphsController < ApplicationController
   end
 
   def get_kwh_data
-    start_date = Time.new.beginning_of_month
-    end_date = Time.new.utc.tomorrow
+    start_date = Time.zone.now.beginning_of_month
+    end_date = Time.zone.now.tomorrow
     day_data = PvDatum.where('created_at >= ? and created_at <= ?', start_date.beginning_of_month, end_date.end_of_month).group_by { |data| data.created_at.at_beginning_of_day }
     kwh_days = Array.new
     kwh_data = Array.new
