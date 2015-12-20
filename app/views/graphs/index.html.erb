@@ -1,21 +1,26 @@
 <!--For debugging-->
 <!--<p><%= @pv_ac_graph_data %></p>-->
 <!--<p><%= @kwh_graph_data %></p>-->
-<%= line_chart @pv_ac_graph_data, library: {title: { text: 'Today\'s AC Power', x: -20},
-                                        subtitle: { text: 'APT Solar Array', x: -20},
+<%= line_chart @pv_ac_graph_data, library: { tooltip: {pointFormat: "Value: {point.y:.0f} W"},
+                                             title: { text: 'Today\'s AC Power', x: -20},
+                                             subtitle: { text: 'APT Solar Array', x: -20},
                                         yAxis: { title: { text: 'AC Power (W)'}}
                             }
+
 %>
-<%= column_chart @kwh_graph_data, library:
-                                        {title:
+<%= column_chart @kwh_graph_data, library: {
+                                        tooltip: {
+                                            pointFormat: "Value: {point.y:.0f} kWh"
+                                        },
+                                        title:
                                                  { text: 'Daily Electrical Energy Production', x: -20},
-                                         subtitle:
+                                        subtitle:
                                                  { text: 'APT Solar Array', x: -20},
-                                         yAxis:
+                                        yAxis:
                                                  { title:
                                                          { text: 'Energy (kWh)'}
                                                  },
-                                         xAxis: {
+                                        xAxis: {
                                                  type: 'datetime',
                                                  labels:
                                                          {
