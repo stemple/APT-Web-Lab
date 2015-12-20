@@ -18,7 +18,7 @@ class GraphsController < ApplicationController
     times = Array.new
     data.each do |datum|
       ac_data.push(datum.ac_power)
-      times.push(datum.created_at)
+      times.push(Time.zone.parse(datum.created_at))
     end
 
     # combine the arrays
@@ -32,7 +32,7 @@ class GraphsController < ApplicationController
     kwh_days = Array.new
     kwh_data = Array.new
     day_data.keys.each do |day|
-      kwh_data.push(day_data.fetch(day).last.total_kwh - day_data.fetch(day).first.total_kwh)
+      kwh_data.push(-day_data.fetch(day).last.total_kwh + day_data.fetch(day).first.total_kwh)
       kwh_days.push(day)
     end
 
