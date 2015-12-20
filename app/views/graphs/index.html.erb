@@ -21,11 +21,13 @@
                                                          { text: 'Energy (kWh)'}
                                                  },
                                         xAxis: {
-                                                 type: 'datetime',
-                                                 labels:
-                                                         {
-                                                           rotation: 45,
-                                                           align: 'left' }
+                                            type: 'datetime',
+                                            dateTimeLabelFormats: {
+                                                day: '%e of %b'
+                                            },
+                                            labels: {
+                                                rotation: 45,
+                                                align: 'left' }
                                          }
                                         }
 %>
