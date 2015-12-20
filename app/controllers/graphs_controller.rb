@@ -32,7 +32,7 @@ class GraphsController < ApplicationController
     kwh_days = Array.new
     kwh_data = Array.new
     day_data.keys.each do |day|
-      kwh_data.push(-day_data.fetch(day).last.total_kwh + day_data.fetch(day).first.total_kwh)
+      kwh_data.push((day_data.fetch(day).last.total_kwh - day_data.fetch(day).first.total_kwh)*(-1))
       kwh_days.push(day)
     end
 
