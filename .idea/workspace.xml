@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/graphs/index.html.erb" afterPath="$PROJECT_DIR$/app/views/graphs/index.html.erb" />
     </list>
     <ignored path="aptweblab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +27,8 @@
       <file leaf-file-name="graphs_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5340557">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.4643963">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -1060,8 +1058,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5340557">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.4643963">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="42" />
           <folding />
         </state>
       </provider>
