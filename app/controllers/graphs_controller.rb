@@ -11,8 +11,8 @@ class GraphsController < ApplicationController
   private
 
   def get_pv_ac_data
-    start_date = Time.new.beginning_of_day
-    end_date = Time.new
+    start_date = Time.new.beginning_of_day.in_time_zone
+    end_date = Time.new.in_time_zone
     data = PvDatum.where('created_at >= ? and created_at <= ?', start_date, end_date)
     ac_data = Array.new
     times = Array.new

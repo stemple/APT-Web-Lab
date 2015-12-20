@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="" />
+    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="aptweblab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,8 +27,8 @@
       <file leaf-file-name="graphs_controller.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18575852">
-              <caret line="13" column="42" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.5108359">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1065,8 +1067,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18575852">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.5108359">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
           <folding />
         </state>
       </provider>
