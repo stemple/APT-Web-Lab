@@ -18,7 +18,7 @@ class GraphsController < ApplicationController
     times = Array.new
     data.each do |datum|
       ac_data.push(datum.ac_power)
-      #TODO: Need to fix this formatting issue
+      #TODO: Need to fix this timezone formatting issue for Highcharts
       times.push(datum.created_at.utc - 8.hours)
     end
 
@@ -34,7 +34,8 @@ class GraphsController < ApplicationController
     kwh_data = Array.new
     day_data.keys.each do |day|
       kwh_data.push(day_data.fetch(day).first.total_kwh - day_data.fetch(day).last.total_kwh)
-      kwh_days.push(day)
+      #TODO: Need to fix this date formatting issue for Highcharts
+      kwh_days.push(day.day)
     end
 
     # combine the arrays

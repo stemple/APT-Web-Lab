@@ -4,7 +4,9 @@
 <%= line_chart @pv_ac_graph_data, library: { tooltip: {pointFormat: "Value: {point.y:.0f} W"},
                                              title: { text: 'Today\'s AC Power', x: -20},
                                              subtitle: { text: 'APT Solar Array', x: -20},
-                                        yAxis: { title: { text: 'AC Power (W)'}}
+                                        yAxis: {
+                                            type: 'datetime',
+                                            title: { text: 'AC Power (W)'}}
                             }
 
 %>
@@ -21,10 +23,6 @@
                                                          { text: 'Energy (kWh)'}
                                                  },
                                         xAxis: {
-                                            type: 'datetime',
-                                            dateTimeLabelFormats: {
-                                                day: '%e of %b'
-                                            },
                                             labels: {
                                                 rotation: 45,
                                                 align: 'left' }
