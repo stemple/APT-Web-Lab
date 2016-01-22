@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150928015607) do
+ActiveRecord::Schema.define(version: 20160121154707) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "energy_data", force: :cascade do |t|
+    t.integer  "day"
+    t.integer  "month"
+    t.integer  "year"
+    t.float    "kwh"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "env_data", force: :cascade do |t|
     t.float    "wind_speed"
