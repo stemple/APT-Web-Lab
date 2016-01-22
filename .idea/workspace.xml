@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/log_kwh_day.rb" afterPath="$PROJECT_DIR$/lib/tasks/log_kwh_day.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/scheduler.rake" afterPath="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
-    </list>
+    <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="" />
     <ignored path="aptweblab.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
