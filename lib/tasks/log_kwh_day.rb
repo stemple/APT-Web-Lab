@@ -1,9 +1,11 @@
 #!/usr/bin/env ruby
+puts ARGV[0]
+puts ARGV[1]
+puts ARGV[2]
 
 # Get the previous day's values.
-start_day = Time.zone.now - (60*60*24)
-start_day = start_day.beginning_of_day
-end_day = start_day + (60*60*24)
+start_day = Time.zone.new(ARGV[0], ARGV[1], ARGV[2], 0, 0, 0, '-08:00')
+end_day = start_day - (60*60*24)
 day_data = PvDatum.where('created_at >= ? and created_at <= ?', start_day, end_day)
 # VERY IMPORTANT: The inverter is malfunctioning and is counting down!
 #TODO: Must fix inverter!
