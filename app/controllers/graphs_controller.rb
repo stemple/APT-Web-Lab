@@ -28,8 +28,7 @@ class GraphsController < ApplicationController
 
   def get_kwh_data
     start_date = Time.zone.now.beginning_of_month
-    end_date = Time.zone.now.tomorrow
-    day_data = EnergyDatum.where('created_at >= ? and created_at <= ?', start_date, end_date)
+    day_data = EnergyDatum.where('month >= ? and year <= ?', start_date.month, start_date.year)
     kwh_days = Array.new
     kwh_data = Array.new
     day_data.each do |day|
