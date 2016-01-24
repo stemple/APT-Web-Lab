@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d152c007-3c31-49ff-bd02-ae37d7b2207c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/graphs_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/scheduler.rake" afterPath="$PROJECT_DIR$/lib/tasks/scheduler.rake" />
     </list>
     <ignored path="aptweblab.iws" />
@@ -29,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+              <caret line="30" column="95" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -68,8 +69,8 @@
       <file leaf-file-name="scheduler.rake" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5529954">
-              <caret line="16" column="90" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.9308756">
+              <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -1016,15 +1017,15 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/graphs_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <caret line="30" column="95" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="95" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/scheduler.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5529954">
-          <caret line="16" column="90" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.9308756">
+          <caret line="34" column="3" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding />
         </state>
       </provider>
