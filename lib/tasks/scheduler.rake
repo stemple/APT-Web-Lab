@@ -5,7 +5,7 @@ task :archive_kwh => :environment do
   start_day = Time.zone.now - (60*60*24)
   start_day = start_day.beginning_of_day
   end_day = start_day + (60*60*24)
-  day_data = PvDatum.where('created_at <= ?', end_day).group_by { |data| data.created_at.at_beginning_of_day }
+  day_data = PvDatum.where('created_at <= ?', end_day).order(created_at: :desc).group_by { |data| data.created_at.at_beginning_of_day }
   # VERY IMPORTANT: The inverter is malfunctioning and is counting down!
   #TODO: Must fix inverter!
   day_data.keys.each do |day|
