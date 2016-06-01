@@ -1,6 +1,3 @@
-<!--For debugging-->
-<!--<p><%= @pv_ac_graph_data %></p>-->
-<!--<p><%= @kwh_graph_data %></p>-->
 <%= line_chart @pv_ac_graph_data, library: { tooltip: {pointFormat: "Value: {point.y:.0f} W"},
                                              title: { text: 'Today\'s AC Power', x: -20},
                                              subtitle: { text: 'APT Solar Array', x: -20},
