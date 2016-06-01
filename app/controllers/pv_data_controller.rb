@@ -36,6 +36,6 @@ class PvDataController < ApplicationController
 
   def pv_datum_params
     params.require(:pv_datum).permit(:ac_power, :dc_voltage, :ac_voltage, :total_kwh, :incident_angle,
-                                     :temperature, :status, :inverter_id)
+                                     :temperature, :status, :inverter_id, :efficiency)
   end
 end
