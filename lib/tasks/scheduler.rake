@@ -53,7 +53,7 @@ task :archive_kwh => :environment do
   address = URI("#{baseurl}#{path}")
   request = Net::HTTP::Post.new address.request_uri
   request.set_form_data(
-      "status" => "APT PV Array Produced #{kwh} kWh for #{end_day}!/n",
+      "status" => "APT PV array produced #{kwh} kWh for #{end_day.month}/#{end_day.day}/#{end_day.year}! Yea!",
   )
 
   # Set up HTTP.
