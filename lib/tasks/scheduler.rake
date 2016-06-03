@@ -60,4 +60,5 @@ task :archive_kwh => :environment do
   http             = Net::HTTP.new address.host, address.port
   http.use_ssl     = true
   http.verify_mode = OpenSSL::SSL::VERIFY_PEER
+  puts "Tweeted"
 end
